@@ -18,7 +18,7 @@ Proyek "Chirp" (Mini Twitter Clone) ini mendemonstrasikan implementasi integrasi
 
 ## ✨ Fitur Utama (Live Demo Scenarios)
 1. **Authentication Flow:** Simulasi Register & Login dengan token JWT.
-2. **Timeline (GET):** Mengambil data kicauan (tweets) secara *real-time* dari backend Express.
+2. **Timeline (GET):** Mengambil data (tweets) secara *real-time* dari backend Express.
 3. **Compose Tweet (POST):** Mengirim data baru dengan menyertakan *Authorization Header* (Bearer Token).
 4. **Rate Limit Demo (PATCH):** Fitur "Like" yang sengaja disiapkan untuk memancing *error* `429 Too Many Requests` jika ditekan secara *brute-force*, mendemonstrasikan pertahanan *backend*.
 
